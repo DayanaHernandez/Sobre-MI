@@ -1,0 +1,186 @@
+header{
+    background-color: #ece9a1;
+    border-radius: 6px;
+    width: 100%;
+    height: 40px;
+    padding-top: 15px;
+    padding-left: 35%;
+    position: fixed;
+
+}
+body{
+    background-color: rgba(245, 245, 220, 0.5);
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+nav{
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 25 px;
+}
+.menu-opcion{
+    margin-right: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black
+}
+.home{
+ background-image: url("../assets/flower-100263_960_720.webp");
+ height: 80vh;
+ background-size: 100% 100%;
+}
+.home h1{
+    font-family: 'garamond';
+    padding-left: 80px;
+    color: black;
+    font-size: 40px;
+    padding-top: 20vh;
+    margin: 0;
+}
+.home h4{
+    color:black;
+    font-size: 18px;
+    margin-top: 5px;
+    padding-left: 80px;
+}
+.aboutme{
+    background-color: rgb(226, 203, 160);
+    height: 500px;
+    text-align: center;    
+}
+ .my-pictures{
+    border-radius: 50%;
+    border: 5px solid rgb(175, 167, 167);
+    width: 200px;
+    height: 200px;
+    margin-top: 40px;
+ }
+ .aboutme div{
+     width: 500px;
+     height: 150px ;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top:30px;
+     border: 2px solid rgb(175, 167, 167) ;
+     border-radius: 5%;
+ }
+.hobbies{
+    background-color: blanchedalmond;
+    height: 600px;
+}
+.Contenedor{
+    display: flex;
+    justify-content: space-around;
+}
+.Contenedor div p{
+    height: 100px;
+}
+ .hobbieUno{
+    font-size: 23px;
+    width: 300px;
+    height: 500px;
+    border: 2px solid gray; 
+    border-radius: 20%;  
+    margin-top: 30px;
+    text-align: center; 
+}
+.miImagenUno{
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    padding-top:3%;
+    border-radius: 10%;
+}
+.opcionUno{
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: 2px solid gray;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.hobbieDos{
+    font-size: 25px;
+    width: 300px;
+    height: 500px;
+    border: 2px solid gray;
+    border-radius: 20%;
+    margin-top: 30px;
+    text-align: center;
+}
+.miImagenDos{
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    padding-top: 3%;
+    border-radius: 10%;
+}
+.opcionDos{
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: 2px solid gray;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.hobbieTres{
+    font-size: 25px;
+    width: 300px;
+    height: 500px;
+    border: 2px solid gray;
+    border-radius: 20%;
+    margin-top: 30px; 
+    text-align: center;
+}
+.miImagenTres{
+    width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    padding-top: 3%;
+    border-radius: 10%;
+}
+.opcionTres{
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border: 2px solid gray;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.fotos{
+    background-color: beige;
+    padding: 20px;
+    height: 600px;
+    
+
+}
+.fotos h1{
+    font-size: 55px;
+    color: black;
+    text-align: center;
+
+}
+.contenedor-fotos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 870px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: pink;
+
+}
+.contenedor-fotos img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 100%;
+    margin-top: 20px;
+}
